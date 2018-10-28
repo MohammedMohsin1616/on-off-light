@@ -12,6 +12,8 @@
 		42085136218666A200A1AE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42085134218666A200A1AE4A /* Main.storyboard */; };
 		42085138218666A400A1AE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42085137218666A400A1AE4A /* Assets.xcassets */; };
 		4208513B218666A400A1AE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42085139218666A400A1AE4A /* LaunchScreen.storyboard */; };
+		42085143218667F800A1AE4A /* SiwtchStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42085142218667F800A1AE4A /* SiwtchStatus.swift */; };
+		420851452186682F00A1AE4A /* Toggleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420851442186682F00A1AE4A /* Toggleable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		42085137218666A400A1AE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4208513A218666A400A1AE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4208513C218666A400A1AE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42085142218667F800A1AE4A /* SiwtchStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiwtchStatus.swift; sourceTree = "<group>"; };
+		420851442186682F00A1AE4A /* Toggleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggleable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,26 @@
 				42085137218666A400A1AE4A /* Assets.xcassets */,
 				42085139218666A400A1AE4A /* LaunchScreen.storyboard */,
 				4208513C218666A400A1AE4A /* Info.plist */,
+				420851462186690000A1AE4A /* Enums */,
+				420851472186690A00A1AE4A /* Protocols */,
 			);
 			path = "on-off light";
+			sourceTree = "<group>";
+		};
+		420851462186690000A1AE4A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				42085142218667F800A1AE4A /* SiwtchStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		420851472186690A00A1AE4A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				420851442186682F00A1AE4A /* Toggleable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				42085133218666A200A1AE4A /* ViewController.swift in Sources */,
+				420851452186682F00A1AE4A /* Toggleable.swift in Sources */,
+				42085143218667F800A1AE4A /* SiwtchStatus.swift in Sources */,
 				42085131218666A200A1AE4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
