@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var onOffButton: UIButton!
     var status: SwitchStatus = .off
     
+    
+    //Commit With the right E-mail
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
